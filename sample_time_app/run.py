@@ -12,7 +12,8 @@ def hello_world():
 def curr_time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S") 
-    print("Current Time =", current_time)
+    return "Current Time =" + current_time
+    
 
 
 app.run(host='0.0.0.0',
